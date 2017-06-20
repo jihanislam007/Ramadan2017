@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="md.mazharul.islam.jihan.ramadan2017.Ruja_bongo">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="3"
+        android:gravity="center"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#52be56">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageButtonkebla1"
+                            android:src="@drawable/kebla1"
+                            android:background="#52be56" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="সময় সূচি "
+                            android:gravity="center"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#52be56">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageButtonhome"
+                            android:src="@drawable/hadis4"
+                            android:background="#52be56" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="হাদিস"
+                            android:gravity="center_horizontal"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignLeft="@+id/linearLayout"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_weight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#52be56">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageButtondua"
+                            android:src="@drawable/dua1"
+                            android:background="#52be56" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="দোয়া ও নিয়ত"
+                            android:gravity="center"
+                            android:id="@+id/textView22"
+                            android:textColor="#FFFFFF" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linearLayout">
+
+        <LinearLayout
+            android:id="@+id/headerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#52be56"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/backHadis"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="back"
+                android:src="@drawable/backone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="রোজা ভঙ্গের কারণ সমুহ"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/textViewhadis"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            android:layout_below="@+id/headerlayout"
+            ads:adUnitId="ca-app-pub-1309629775280161/6659389935">
+        </com.google.android.gms.ads.AdView>
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView3"
+            android:background="#FFFFFF"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/adView">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\n১. ইচ্ছাকৃত পানাহার করলে।\n\n২. স্ত্রী সহবাস করলে ।\n\n৩. কুলি করার সময় হলকের নিচে পানি চলে গেলে (অবশ্য রোজার কথা স্মরণ না থাকলে রোজা ভাঙ্গবে না)।\n\n৪. ইচ্ছকৃত মুখভরে বমি করলে বা  মুখ ভর্তি বমি গিলে ফেললে ।\n\n৫. নস্য গ্রহণ করা, নাকে বা কানে ওষধ বা তৈল প্রবেশ করালে।\n\n৬. জবরদস্তি করে কেহ রোজা ভাঙ্গালে ।\n\n৭. ইনজেকশান বা স্যালাইরনর মাধ্যমে দেমাগে ওষধ পৌছালে।\n\n৮. কংকর পাথর বা ফলের বিচি গিলে ফেললে।\n\n৯. সূর্যাস্ত হয়েছে মনে করে ইফতার করার পর দেখা গেল সুর্যাস্ত হয়নি।\n\n১০. পুরা রমজান মাস রোজার নিয়ত না করলে।\n\n১১. দাঁত হতে ছোলা পরিমান খাদ্য-দ্রব্য গিলে ফেললে।\n\n১২. ধূমপান করা, ইচ্ছাকৃত লোবান বা আগরবাতি জ্বালায়ে ধোয়া গ্রহন করলে।\n\n১৩. রাত্রি আছে মনে করে সোবহে সাদিকের পর পানাহার করলে।\n\n১৪. মুখে পান রেখে ঘুমিয়ে পড়ে সুবহে সাদিকের পর নিদ্রা হতে জাগরিত হওয়া এ অবস্থায় শুধু কাজা ওয়াজিব হবে।"
+                android:id="@+id/textView16"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/scrollView3" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

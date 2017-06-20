@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/navico"
+            android:title="সময় সূচি" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/navico"
+            android:title="ইফতার ও সেহরির নিয়ত" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/navico"
+            android:title="রোজা ভঙ্গের কারণ" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/navico"
+            android:textSize="40dp"
+            android:title="রমজান মাস সম্পর্কিত হাদিস " />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/action_setting" />
+
+        </menu>
+    </item>
+
+</menu>
