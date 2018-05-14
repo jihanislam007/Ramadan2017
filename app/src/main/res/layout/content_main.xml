@@ -9,6 +9,60 @@
     tools:context="md.mazharul.islam.jihan.ramadan2017.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
+    <!--<LinearLayout
+        android:id="@+id/navToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/zillaNameTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhaka"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>-->
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -72,8 +126,6 @@
                 android:textColor="#FFFFFF" />
         </LinearLayout>
     </LinearLayout>
-
-
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -254,4 +306,5 @@
         android:layout_alignLeft="@+id/linearLayout2"
         android:layout_alignStart="@+id/linearLayout2"
         android:layout_below="@+id/linearLayout2" />
+
 </RelativeLayout>
